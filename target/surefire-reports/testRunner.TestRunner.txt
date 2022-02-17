@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: testRunner.TestRunner
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.577 s <<< FAILURE! - in testRunner.TestRunner
-Title of your scenario(Failed case)  Time elapsed: 0.099 s  <<< ERROR!
-java.lang.ArithmeticException: / by zero
-
