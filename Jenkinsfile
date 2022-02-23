@@ -21,7 +21,8 @@ pipeline {
         }
         stage ('Test') {
             steps {
-                sh 'mvn clean test'
+                sh 'mvn clean test -DBASE_URI=$BASE_URI'
+                
             }
         }
         

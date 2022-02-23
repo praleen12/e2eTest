@@ -9,7 +9,6 @@ public class demoStep {
 		
 		String BASE_URI = System.getProperty("BASE_URI");
 		
-//		String BASE_URI = System.getProperty("BASE_URI", "https://www.google.com");
 		
 		System.out.println("I m in first step");
 		System.out.println("Running on " + BASE_URI);
