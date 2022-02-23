@@ -2,7 +2,7 @@
 Feature: Failed case 
   I want to use this template for my feature file
 
-  @tag1
+  @fail
   Scenario: Title of your scenario
     Given calculate value of i
     

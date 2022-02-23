@@ -6,7 +6,11 @@ public class demoStep {
 
 	@Given("I launch to demo application")
 	public void i_launch_to_demo_application() {
+		
+		String BASE_URI = System.getProperty("BASE_URI", "https://www.google.com");
+		
 		System.out.println("I m in first step");
+		System.out.println("Running on " + BASE_URI);
 
 	}
 
